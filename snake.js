@@ -7,17 +7,11 @@ const musicSound = new Audio('music/music.mp3');
 let speed = 5;
 let score = 0;
 let lastPaintTime = 0;
-let name = prompt("enter your name first");
 let snakeArr = [
     {x: 13, y: 15}
 ];
 
 food = {x: 6, y: 7};
-
-// name
-
-namebox.innerHTML = "name: " + name;
-
 
 // Game Functions
 function main(ctime) {
